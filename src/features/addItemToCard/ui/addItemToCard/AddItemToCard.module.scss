@@ -1,0 +1,40 @@
+.AddItemToCard {
+    max-width: 708px;
+    width: 100%;
+    min-height: 230px;
+    max-height: 401px;
+    height: 100%;
+    padding: 10px 13px;
+
+    .container {
+        max-width: 360px;
+        margin: 11px 0 20px;
+    }
+
+    .bntContainer {
+        gap: 16px;
+    }
+
+    .title {
+        @media screen and (max-width: 401px) {
+            text-align: center;
+        }
+    }
+
+    .card {
+        padding: 12px 16px;
+    }
+
+    .btn {
+        flex-shrink: 100;
+    }
+
+    @media screen and (max-width: 721px) {
+
+        .bntContainer {
+            gap: 9px;
+            flex-wrap: wrap;
+        }
+
+    }
+}

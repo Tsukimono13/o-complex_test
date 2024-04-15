@@ -1,0 +1,6 @@
+.ReviewList {
+    gap: 34px;
+    @media screen and (max-width: 1440px) {
+        gap: 16px;
+    }
+}

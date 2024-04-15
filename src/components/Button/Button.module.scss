@@ -1,0 +1,55 @@
+.Button {
+    cursor: pointer;
+    color: var(--secondary-color);
+    padding: 12px 57px;
+    border-radius: 15px;
+    background-color: var(--bg-color);
+
+    &:hover {
+        background-color: var(--hover-btn);
+    }
+}
+
+
+.round {
+    padding: 0;
+    border-radius: 15px;
+}
+
+.round.size_s {
+    width: var(--btn-size-s);
+    height: var(--btn-size-s);
+}
+
+.round.size_m {
+    width: var(--btn-size-m);
+    height: var(--btn-size-m);
+}
+
+.round.size_l {
+    width: var(--btn-size-l);
+    height: var(--btn-size-l);
+}
+
+.size_s {
+    font-size: var(--font-size-s);
+}
+
+.size_m {
+    font-size: var(--font-size-m);
+}
+
+.size_l {
+    font-size: var(--font-size-l);
+}
+
+.disabled {
+    opacity: 0.5;
+    &:hover {
+        background-color: var(--bg-color);
+    }
+}
+
+.fullWidth {
+    width: 100%;
+}

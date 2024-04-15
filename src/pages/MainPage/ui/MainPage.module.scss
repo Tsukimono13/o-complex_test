@@ -1,0 +1,36 @@
+.wrapper {
+
+    padding-bottom: 388px;
+
+    @media screen and (max-width: 1440px) {
+        padding: 13px 14px;
+    }
+
+    .title {
+        max-width: 1442px;
+        min-width: 332px;
+        width: 100%;
+        margin: 55px 0 105px;
+    }
+
+    .addCard {
+        margin: 243px 0 47px;
+    }
+
+    .container {
+        margin-top: 20px;
+    }
+
+    @media screen and (max-width: 361px) {
+        padding-bottom: 227px;
+
+        .title {
+            margin: 0 0 97px;
+        }
+
+        .addCard {
+            margin: 164px 0 45px;
+        }
+    }
+
+}

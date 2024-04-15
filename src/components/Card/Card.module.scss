@@ -1,0 +1,19 @@
+.Card {
+    border-radius: 15px;
+}
+
+.primary {
+    background-color: var(--card-bg);
+}
+
+.secondary {
+    background-color: var(--card-bg-secondary);
+}
+
+.background {
+    background-color: var(--bg-color);
+}
+
+.max {
+    width: 100%;
+}

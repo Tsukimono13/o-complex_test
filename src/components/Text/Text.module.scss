@@ -1,0 +1,71 @@
+@import "src/lib/adaptiveFont/adaptiveFont";
+
+.title {
+    color: var(--primary-color);
+}
+
+.text {
+    color: var(--primary-color);
+}
+
+.error {
+
+    .text,
+    .title {
+        color: var(--error-color);
+    }
+}
+
+.inverted {
+
+    .text,
+    .title {
+        color: var(--inverted-primary-color);
+    }
+}
+
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.size_m {
+    .title {
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 43.57px;
+    }
+
+    .text {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 29.05px;
+    }
+
+}
+
+.size_l {
+    .title {
+        font-weight: 400;
+        line-height: 116.18px;
+        @include adaptiv-font(96, 40);
+
+        @media screen and (max-width: 401px) {
+            line-height: 48.41px;
+        }
+    }
+
+    .text {
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 43.57px;
+    }
+}

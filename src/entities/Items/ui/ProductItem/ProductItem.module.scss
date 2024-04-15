@@ -1,0 +1,33 @@
+.ProductItem {
+    max-height: 812px;
+    min-height: 703px;
+    width: 301px;
+    height: 100%;
+    padding: 9px 10px;
+
+    @media screen and (max-width: 361px) {
+        width: 100%;
+    }
+
+    .image {
+        min-width: 281px;
+        height: 366px;
+        border-radius: 15px;
+        width: 100%;
+        max-width: 310px;
+    }
+
+    .title {
+        height: 44px;
+        overflow: hidden;
+    }
+
+    .content {
+        height: 238px;
+        overflow: hidden;
+    }
+
+    .btn {
+        margin-top: 33px;
+    }
+}
